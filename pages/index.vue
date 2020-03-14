@@ -1,6 +1,6 @@
 <template>
   <main>
-    <div v-swiper:mySwiper1="swiperOption">
+    <div v-swiper:swiperA="swiperOption">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><div class="text">Slide 1</div></div>
         <div class="swiper-slide"><div class="text">Slide 2</div></div>
@@ -9,7 +9,7 @@
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
     </div>
-    <div v-swiper:mySwiper2="swiperOption">
+    <div v-swiper:swiperB="swiperOption">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><div class="text">Slide 4</div></div>
         <div class="swiper-slide"><div class="text">Slide 5</div></div>
